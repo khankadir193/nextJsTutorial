@@ -36,6 +36,10 @@ export default function Home() {
       <Link href="/about">Go to about Page</Link>
       <button onClick={()=>navigationPage('login')}>Go to login Page</button>
       <button onClick={()=>navigationPage('about')}>Go to about Page</button>
+      <Link href="/about/aboutcollage">Go to AboutCollage Page</Link>
+      <Link href="/about/aboutStudent">Go to AboutStudent Page</Link>
+      <Link href="/login/loginstudent">Go to LoginStudent Page</Link>
+      <Link href="/login/loginTeacher">Go to LoginTeacher Page</Link>
     </main>
   );
 }
